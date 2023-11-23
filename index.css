@@ -1,0 +1,161 @@
+body {
+  margin: 0;
+  font-family: lato;
+  background: linear-gradient(to bottom, #db4747, #911e1e);
+  height: 200vh;
+  overflow-x: hidden;
+}
+
+#title-boule {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+#title-boule img {
+  max-height: 80%;
+  max-width: 100%;
+}
+
+#title-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2%;
+}
+
+#title-container img {
+  max-height: 30vh;
+  max-width: 100%;
+}
+
+#map-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 700px; /* Set max-width for the container */
+  margin: 0 auto; /* Center the container horizontally */
+  padding: 1%;
+  
+}
+
+#map {
+  border: 5px;
+  border-radius: 25px;
+  width: 100%; /* Make the map div take 100% width of its container */
+  height: auto;
+  max-height: 700px;
+  max-width: 900px; /* Set max-width for the map */
+}
+
+/* Buttons */
+
+.kiosk-button {
+  position: absolute;
+  cursor: pointer;
+  background-color: transparent;
+  transition: background-color 0.3s ease;
+  border: 25px;
+  border-radius: 25px;
+}
+
+#kiosk-1 {
+  border: 5px;
+  border-radius: 5px;
+  transform: rotate(42deg);
+  top: 9.5%;
+  left: 40%;
+  width: 20%;
+  height: 9%;
+}
+
+#kiosk-4 {
+  border: 5px;
+  border-radius: 5px;
+  top: 34%;
+  left: 5.5%;
+  width: 20%;
+  height: 9%;
+}
+
+#kiosk-5 {
+  border: 5px;
+  border-radius: 5px;
+  top: 48%;
+  left: 5.5%;
+  width: 20%;
+  height: 9%;
+}
+
+#kiosk-2 {
+  border: 5px;
+  border-radius: 5px;
+  top: 19%;
+  left: 64.5%;
+  width: 14.2%;
+  height: 9%;
+}
+
+#kiosk-3 {
+  border: 5px;
+  border-radius: 5px;
+  top: 19%;
+  left: 82.3%;
+  width: 14.2%;
+  height: 9%;
+}
+
+#kiosk-6 {
+  border: 5px;
+  border-radius: 5px;
+  top: 74%;
+  left: 28.5%;
+  width: 14.2%;
+  height: 9%;
+}
+
+#kiosk-7 {
+  border: 5px;
+  border-radius: 5px;
+  top: 74%;
+  left: 49.5%;
+  width: 14.2%;
+  height: 9%;
+}
+
+#kiosk-8 {
+  border: 5px;
+  border-radius: 5px;
+  top: 73.7%;
+  left: 69.5%;
+  width: 14.2%;
+  height: 9%;
+}
+
+
+#info-container {
+  padding-top: 0%;
+  text-align: center;
+  margin-top: 0%;
+}
+
+.kiosk-details {
+  border: 5px solid;
+  border-color: rgb(233, 203, 31);
+  border-radius: 25px;
+  margin: 0 2% 2% 2%;
+  background: linear-gradient(to bottom, rgb(255, 255, 255), #ffffff);
+  padding-top: 1%;
+  color: rgb(0, 0, 0);
+  margin-top: 3%;
+  text-align: center;
+  padding-bottom: 3%;
+  transition: background-color 0.3s ease;
+}
+
+#info-text {
+  font-size: 1.1em;
+  color: white;
+}
